@@ -16,4 +16,4 @@ mpd <- mpd[
   .(country_code, year, mpd_gdp)
 ]
 
-readr::write_csv(mpd, "aux_maddison.csv")
+readr::write_csv(mpd, "maddison.csv")
